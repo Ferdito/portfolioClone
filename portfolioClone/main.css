@@ -1,0 +1,382 @@
+/*
+=================================
+Header Styles
+=================================
+*/
+header{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: white;
+    background: #00B1DB;
+    padding-bottom: 40px;
+    box-shadow: 0 10px 15px grey;
+}
+header nav ul{
+    background: #00A3E6;
+    padding: 15px 15px 0 15px;
+    margin: 0
+}
+header nav ul :hover{
+    color: black;
+}
+header li{
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 13px;
+    margin-left: 35px;
+    padding-bottom: 12px;
+}
+header li:hover{
+    border-bottom: solid;
+    border-color: aqua;
+    padding-bottom: 9px;
+}
+header img{
+    object-fit: cover;
+    height: 150px;
+    width: 150px;
+    float: right;
+    border-radius: 50%;
+    margin: 9px 50px;
+}
+header h1,
+h2{
+    margin: 50px 0 5px 50px;
+}
+header h2{
+    margin-top: 0
+}
+
+
+/*
+=================================
+HELLO Styles
+
+Right Column
+=================================
+*/
+p{
+    font-family: sans-serif;
+}
+.right-column{
+    width: 66%;
+    box-shadow: -5px 0 15px grey;
+    float: right;
+    padding-bottom: 11%;
+}
+.right-column img{
+    border: 0;
+    height: 90px;
+    padding: 5% 0 5% 10%;
+}
+.right-column p{
+    margin: 10% 10% 0 10%;
+}
+.post-sig p{
+    padding-top: 0;
+    margin: 0 0 0 10%;
+}
+.post-sig p:first-child{
+    margin-bottom: 1%;
+}
+
+/*
+=================================
+HELLO Styles
+
+Left Column
+=================================
+*/
+.left-column{
+    width: 34%;
+    color: #00A3E6;
+    background: #EDEDED;
+    padding-bottom: 18%;
+    padding-top: 10px;
+    position: relative;
+    z-index: -1;
+}
+.left-column ul{
+    padding-top: 15%;
+    margin-left: 5%;
+}
+.left-column ul li{
+    display: block;
+}
+.left-column ul li ul{
+    border-bottom: solid;
+    border-color: grey; 
+    margin-bottom: 25px;
+    color: black;
+    width: 65%;
+    padding: 20px 0 25px 0;
+}
+
+/*
+=================================
+Portfolio Styles
+=================================
+*/
+.portfolio img{
+    width: 66%;
+    height: 300px;
+    object-fit: cover;
+    filter: grayscale(100%);
+    float: right;
+}
+h3{
+    color: #00B1DB;
+    font-family: Arial sans-serif;
+    font-weight: 100;
+}
+.portfolio div{
+    width: 30%;
+    padding: 30px 20% 0 50px;
+}
+.portfolio p{
+    padding-right: 40px;
+    margin-right: 30px;
+}
+.portfolio div:nth-of-type(2){
+    position: absolute;
+    margin: 50px 0 0 65%;
+    padding-right: 0;
+}
+.portfolio img:nth-of-type(1){
+    position: relative;
+    z-index: -1;
+}
+.portfolio img:nth-of-type(2){
+    float: left;
+}
+.portfolio div:last-of-type{
+    position: absolute;
+    margin-top: 27%;
+}
+.portfolio div a{
+    color: #00B1DB;
+}
+/*
+=================================
+Resume Styles
+=================================
+*/
+.resume p{
+    background: #949494;
+    color: white;
+    padding: 30px;
+    margin: 0;
+    position: relative;
+    z-index: -1;
+}
+.res-l{
+    padding: 30px 0 0 10%;
+    width: 30%;
+    height: 845px;
+    float: left;
+    box-shadow: 5px 0 15px grey;
+}
+.personal{
+    border-collapse: collapse;
+    margin-bottom: 10px;
+}
+.personal td{
+    border-bottom: 3px solid #F2F2F2;
+    padding: 5px 0 10px 0;
+    padding-right: 20px;
+}
+.personal tr :first-child{
+    font-weight: 800;
+    padding-right: 40px;
+}
+.software tr :first-child{
+    padding-top: 10px;
+}
+.software tr :nth-child(2){
+    margin-top: 14px;
+    margin-left: 20px;
+    padding: 0;
+    width: 150px;
+    height: 10px;
+    background: #00B1DB;
+    display: block;
+}
+.software div{
+    display: block;
+    background: #F2F2F2;
+    float: right;
+}
+.row-85{
+    width: 15%;
+}
+.row-75{
+    width: 25%;
+}
+.row-70{
+    width: 30%;
+}
+.row-65{
+    width: 35%;
+}
+.row-60{
+    width: 40%;
+}
+.res-l .hobbies{
+    padding: 0;
+}
+.res-l li{
+    display: inline-block;
+    width: 100px;
+}
+.res-l i{
+    margin: 15px 15px 15px 0;
+    font-size: 2em;
+    color: white;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+}
+/*
+=================================
+Resume Right Styles
+=================================
+*/
+.res-r{
+    width: 55%;
+    height: 845px;
+    margin-left: 40%;
+    padding: 30px 0 0 0;
+    background: #EDEDED;
+    padding-left: 5%;
+    
+}
+.skills div{
+    text-align: center;
+    border-radius: 50%;
+    display: inline-block;
+}
+.skills .border{
+    margin-right: 15px;
+    background: grey;
+    width: 110px;
+    height: 110px;
+    background-image:
+        linear-gradient(90deg, transparent 50%, #00B1DB 50%),
+        linear-gradient(90deg, #00B1DB 50%, transparent 50%);
+}
+.skills .border:nth-child(2){
+    background-image:
+        linear-gradient(120deg, transparent 50%, #00B1DB 50%),
+        linear-gradient(90deg, #00B1DB 50%, transparent 50%);
+}
+.skills .border:nth-child(3){
+    background-image: 
+        linear-gradient(170deg, transparent 50%, #00B1DB 50%),
+        linear-gradient(90deg, #00B1DB 50%, transparent 50%);
+}.skills .border:nth-child(4){
+    background-image: 
+        linear-gradient(210deg, transparent 50%, #00B1DB 50%),
+        linear-gradient(90deg, #00B1DB 50%, transparent 50%);
+}
+.skills .border:nth-child(5){
+    background-image: 
+        linear-gradient(250deg, transparent 50%, #00B1DB 50%),
+        linear-gradient(90deg, #00B1DB 50%, transparent 50%);
+}
+
+.skills .border div{
+    background: white;
+    position: relative;
+    top: 10px;
+    height: 90px;
+    width: 90px;
+}
+.skills .border span{
+    position: relative;
+    top: 35px;
+}
+.res-r table{
+    padding-left: 25px;
+    margin-right: 20px;
+    border-collapse: separate;
+    border-spacing: 15px;
+}
+.res-r tr:nth-child(2n-1){
+    font-weight: 800;
+}
+.res-r table td:only-of-type{
+    border-bottom: solid grey;
+    padding-right: 80px;
+    padding-bottom: 15px;
+}
+.res-r .line{
+    margin-top: 15px;
+    border-left: solid #00B1DB;
+    height: 300px;
+    float: left;
+    margin-left: 10px;
+}
+.res-r .lines{
+    float:left;
+}
+.res-r .line_short{
+    margin-top: 15px;
+    border-left: solid #00B1DB;
+    height: 200px;
+    float: left;
+    margin-left: 10px;
+}
+.res-r .orb{
+    background: #00B1DB;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 6px solid rgba(0, 177, 219, 0.5);
+    margin-bottom: 85px;
+    margin-top: 13px;
+}
+/*
+=================================
+Footer Styles
+=================================
+*/
+footer{
+    color: white;
+    display: inline-block;
+    width: 100%;
+    background: #00B1DB;
+}
+a:link,
+a:visited{
+    color:white;
+    text-decoration: none;
+}
+footer li{
+    display: inline-block;
+}
+i{
+    background: #00A3E6;
+    padding: 10%;
+    margin: 0 40% 5% 35%;
+    border-radius: 50%;
+}
+footer i:hover{
+    background: white;
+}
+footer :hover{
+    color: black;
+}
+.social{
+    margin-left: 25%;
+}
+.social li a{
+    display: block;
+    margin-left: 20%;
+}
+.contact ul{
+    background: #00A3E6;
+    margin-bottom: 0;
+    padding: 2% 15%;
+}
+.contact ul li{
+    padding-right: 10px;
+}
